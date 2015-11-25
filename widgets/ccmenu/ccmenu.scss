@@ -1,0 +1,36 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$title-color:       rgba(255, 255, 255, 0.7);
+$green-color:       #50BA5B;
+$red-color:         #D93C38;
+$orange-color:      #F6A41C;
+
+// ----------------------------------------------------------------------------
+// Widget-ccmenu styles
+// ----------------------------------------------------------------------------
+.widget-ccmenu {
+  vertical-align: top;
+
+  .title {
+    color: $title-color;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.status-green {
+  background-color: $green-color;
+}
+.status-red {
+  background-color: $red-color;
+}
+
+.status-orange {
+  background-color: $orange-color;
+}
